@@ -8,12 +8,12 @@ namespace ClassMetotDemo
     {
         public void Add(Customer customer)
         {
-            Console.WriteLine(customer.Name + " " + customer.FirstName + " isimli müşterinin kaydı yapılmıştır");
+            Console.WriteLine(customer.FirstName + " " + customer.LastName + " isimli müşterinin kaydı yapılmıştır");
         }
 
         public void CustomerListing(Customer customer)
         {
-            Console.WriteLine(customer.Name + " " + customer.FirstName + " " + customer.TcNo);
+            Console.WriteLine(customer.FirstName + " " + customer.LastName + " " + customer.TcNo);
 
         }
 
